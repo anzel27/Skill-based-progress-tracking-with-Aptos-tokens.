@@ -1,0 +1,15 @@
+[package]
+name = "progress-tracking-with-Aptos-tokens"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule ="0xa52e6e0c5051ea1b7a16c9093609abf86e109334ee187ccb60499a524bea6e67"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
